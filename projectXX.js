@@ -19,14 +19,46 @@ function change(element,array){
 change(element,imgs);
 
 
-function myFunction() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
-}
 
 
 
 
+$('#bm').click(function(){
+	window.location.href='http://www.benjemaamotors.com/';
+ })
+
+ $('#au').click(function(){
+	window.location.href='https://tn.audi.com/tn/web/fr.html';
+ })
+
+ $('#mer').click(function(){
+	window.location.href='https://www.mercedes-benz.tn/fr/desktop/home.html';
+ })
+
+ $('#po').click(function(){
+	window.location.href='https://www.porsche.com/france/_tunisia_/aboutporsche/importers/';
+ })
+
+ $('#vo').click(function(){
+	window.location.href='https://www.volkswagen.tn/fr.html';
+ })
+ $('#wa').click(function(){
+	window.location.href='https://www.wallyscar.com/';
+ })
+ $('#ju').click(function(){
+	window.location.href='https://www.jaguar-tunisie.com/fr/';
+ })
+ $('#je').click(function(){
+	window.location.href='https://www.jeep.tn/';
+ })
+
+ $('#about').click(function(){
+	window.location.href='http://theschoolofdrift.org/';
+ })
+
+ $('#dream').click(function(){
+	window.location.href='file:///C:/Users/HP/OneDrive/Bureau/projectXX/projectX/page2.html#home';
+ })
 
 
 
