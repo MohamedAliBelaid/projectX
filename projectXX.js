@@ -59,9 +59,8 @@ $('#bm').click(function(){
  $('#dream').click(function(){
 	window.location.href='file:///C:/Users/HP/OneDrive/Bureau/projectXX/projectX/page2.html#home';
  })
-
-
-
+ 
+   
 function myFunction() {
   var bsm=document.getElementById("byd")
   var swm=document.getElementById("bud")
@@ -78,27 +77,35 @@ function myFunction() {
   var check3= document.getElementById("sports")
   var check3a=document.getElementById("lexurys")
   if (check1a.checked == true && check2a.checked == true && check3a.checked == true ){
+    $("#hi").fadeOut();
     b7.style.display = "block";
   } 
   else if (check1.checked == true && check2a.checked == true && check3.checked == true){
+  	$("#hi").fadeOut("slow");
     m8.style.display = "block";
     }
     else if (check1.checked == true && check2a.checked == true && check3a.checked == true){
+    	$("#hi").fadeOut("slow");
     	w7.style.display = "block";
     }
     else if (check1a.checked == true && check2a.checked == true && check3.checked == true){
+    	$("#hi").fadeOut("slow");
     	b8.style.display = "block";
     }
     else if (check1.checked == true && check2.checked == true && check3a.checked == true){
+    	$("#hi").fadeOut("slow");
     	wmc.style.display = "block";
     }
     else if (check1a.checked == true && check2.checked == true && check3a.checked == true){
+    	$("#hi").fadeOut("slow");
     	bmc.style.display = "block";
     }
     else if (check1.checked == true && check2.checked == true && check3.checked == true){
+    	$("#hi").fadeOut("slow");
     	swm.style.display = "block";
     }
     else if (check1a.checked == true && check2.checked == true && check3.checked == true){
+    	$("#hi").fadeOut("slow");
     	bsm.style.display = "block";
     }
 
@@ -106,3 +113,58 @@ function myFunction() {
     	bsm.style.display = "none";
     }
   }
+
+
+
+$('#serie1').click(function(){
+	window.location.href='https://www.larevueautomobile.com/Fiche-Technique-Auto/Caracteristique-bmw-serie-1-116d-2020';
+ })
+$('#serie2').click(function(){
+	window.location.href='https://www.larevueautomobile.com/Fiche-Technique-Auto/Caracteristique-bmw-serie-2-coupe-218d-2020-1';
+ })
+$('#serie3').click(function(){
+	window.location.href='https://www.larevueautomobile.com/Fiche-Technique-Auto/Caracteristique-bmw-serie-3-320d-2020';
+ })
+$('#serie4').click(function(){
+	window.location.href='https://www.larevueautomobile.com/Fiche-Technique-Auto/Caracteristique-bmw-serie-4-coupe-420i-2020';
+ })
+$('#serie5').click(function(){
+	window.location.href='https://www.larevueautomobile.com/Fiche-Technique-Auto/Caracteristique-bmw-serie-5-520d-2020';
+ })
+$('#classA').click(function(){
+	window.location.href='https://www.larevueautomobile.com/Fiche-Technique-Auto/Caracteristique-mercedes-classe-a-200-2020';
+ })
+$('#cla').click(function(){
+	window.location.href='https://www.larevueautomobile.com/Fiche-Technique-Auto/Caracteristique-mercedes-cla-200-2020';
+ })
+$('#classE').click(function(){
+	window.location.href='https://www.larevueautomobile.com/Fiche-Technique-Auto/Caracteristique-mercedes-classe-e-200-2020';
+ })
+$('#classC').click(function(){
+	window.location.href='https://www.larevueautomobile.com/Fiche-Technique-Auto/Caracteristique-mercedes-classe-c-200-2020';
+})
+$('#gle').click(function(){
+	window.location.href='https://www.larevueautomobile.com/Fiche-Technique-Auto/Caracteristique-mercedes-gle-300-d-4matic-2020';
+ })
+$('#glc').click(function(){
+	window.location.href='https://www.larevueautomobile.com/Fiche-Technique-Auto/Caracteristique-mercedes-glc-220-d-4matic-2020-1';
+ })
+$('#a3').click(function(){
+	window.location.href='https://www.larevueautomobile.com/Fiche-Technique-Auto/Caracteristique-audi-a3-sportback-1-4-tfsi-150-2020';
+ })
+$('#q2').click(function(){
+	window.location.href='https://www.larevueautomobile.com/Fiche-Technique-Auto/Caracteristique-audi-q2-35-tfsi-150-2020';
+ })
+$('#a4').click(function(){
+	window.location.href='https://www.larevueautomobile.com/Fiche-Technique-Auto/Caracteristique-audi-a4-2-0-tfsi-190-ultra-2020';
+ })
+$('#a5').click(function(){
+	window.location.href='https://www.larevueautomobile.com/Fiche-Technique-Auto/Caracteristique-audi-a5-sportback-2-0-tdi-190-2020';
+ })
+$('#q3').click(function(){
+	window.location.href='https://www.larevueautomobile.com/Fiche-Technique-Auto/Caracteristique-audi-q3-35-tdi-2020';
+ })
+$('#a6').click(function(){
+	window.location.href='https://www.larevueautomobile.com/Fiche-Technique-Auto/Caracteristique-audi-a6-s6-2020';
+ })
+
