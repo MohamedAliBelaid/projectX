@@ -211,3 +211,34 @@ background-color:#00B0F0;
   0% { transform: rotate(0deg); }
   100% { transform: rotate(720deg); }
 }
+
+.aa{
+margin-right: 19px;
+}
+
+#footer{
+  
+  background: black;
+  opacity: 0.7;
+  
+}
+
+
+#sm{
+  margin-left: 40%;
+  width: 30%;
+}
+.s{
+  padding-right: 44px;
+}
+
+.fn1{
+  color:white;
+  text-decoration: underline;
+    margin-left: 39%;
+}
+.fn2{
+  color:white;
+  text-decoration: underline;
+    margin-left: 39%;
+}
